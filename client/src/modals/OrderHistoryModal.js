@@ -1,9 +1,6 @@
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router';
-import Loader from '../components/Loader';
-import { Close } from '@mui/icons-material';
-import APIResponseStatus from '../components/APIResponseStatus';
 
 function OrderHistoryModal(props) {
     const{orderData,setOrderModal}=props

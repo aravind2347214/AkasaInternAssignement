@@ -1,9 +1,8 @@
-import React, { useState, useEffect, useDebugValue } from 'react';
+import React, { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { useNavigate } from 'react-router-dom'; // For redirecting after logout
-import { getUserDetails, getUserDetailsFromToken, logoutUser } from '../services/authServices'; // Mock API service to get user data
-import { dummyUser } from '../data/data';
+import {getUserDetailsFromToken } from '../services/authServices'; // Mock API service to get user data
 import { Tooltip } from '@mui/material';
 import LogoutModal from '../modals/LogoutModal';
 import OrderHistoryModal from '../modals/OrderHistoryModal';

@@ -1,5 +1,4 @@
 import React from 'react';
-import MenuIcon from '@mui/icons-material/Menu';
 import { AccountCircle, Search, ShoppingCart } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
 import { FruitLogo } from '../assets/Icons';

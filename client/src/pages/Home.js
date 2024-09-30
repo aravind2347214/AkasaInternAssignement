@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-// import { items } from '../data/data';
 import { useNavigate } from 'react-router';
 import { FruitBasket } from '../assets/Icons';
 import { useDispatch, useSelector } from 'react-redux';
