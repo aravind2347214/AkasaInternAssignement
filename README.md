@@ -2,6 +2,10 @@
 
 This project is a full-stack food ordering platform built using **React.js** on the frontend and **Node.js** with **Express** on the backend. The platform allows users to browse available food items, add them to a cart, and proceed to checkout.
 
+## Demo
+<!-- add alink -->
+[https://freshmart-frontend.onrender.com/](https://freshmart-frontend.onrender.com/)
+
 ## Features
 
 ### User Authentication
