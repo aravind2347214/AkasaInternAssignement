@@ -1,6 +1,6 @@
 const express = require("express")
 const app= express()
-const PORT=8000;
+const PORT=8001;
 var cors = require('cors');
 const { connectToDatabase } = require("./database");
 const authRouter = require("./routes/auth");
