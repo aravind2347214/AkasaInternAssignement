@@ -6,7 +6,6 @@ import Cart from './pages/Cart'
 import Order from './pages/Order'
 import SignUp from './pages/SignUp';
 import Profile from './pages/Profile';
-import SingleItem from './pages/SingleItem';
 import "aos/dist/aos.css"
 import AOS from "aos";
 import { useEffect } from 'react';
@@ -24,7 +23,6 @@ function App() {
       <Route path='/cart' element={<Cart/>}/>
       <Route path='/order' element={<Order/>}/>
       <Route path='/profile' element={<Profile/>}/>
-      <Route path='/item' element={<SingleItem/>}/>
     </Routes>
     </BrowserRouter>
 
