@@ -1,0 +1,32 @@
+Design and implement a food ordering platform where users can select and add items to the cart and place an 
+order. 
+DETAILED REQUIREMENTS 
+1.  USER REGISTRATION AND AUTHENTICATION: a. Users should be able to register with the platform using their email and password. b. Implement an authentication mechanism to allow registered users to log in securely.  
+ 
+2.  BROWSE ITEM INVENTORY: a. User should be able to browse items by category. Show list of items based on their category.  
+Example: Search by type - All, Fruit, Vegetable, Non-veg, Breads, etc. 
+b. Be creative in displaying the available inventory to the users. 
+ 
+3.  SELECTION BASKET/CART: a. User should be able to add items to a basket/cart for selection.  
+b. Items in cart can have more than one of the same item. 
+c. When user checks out the items to "Pay and Proceed", the system should be able to check if 
+items are available in stock.  
+d. If any item is missing, then the user should be notified. 
+e. User should be notified with an error for other edge cases too 
+f. When the user logs in again, his previously saved cart history should be available.  
+g. User can login from any device and these cart items should be available.  
+h. Multiple logins for the same account are possible from different devices 
+ 
+ 
+4.  CHECKOUT: a. User  should  be  able  to  see  the  breakup  of  the  total  before  checking  out  for  payment 
+**Ignore discounts and taxes** b. When  item  is  checked  out,  user  should  be  notified  about  the  successful  transaction,  with 
+orderID/trackingID  
+(payment can be assumed done) c. If an item is not available, then "Not Available" should be shown to the user d. If  multiple  users  are  using  the  application  with  different  accounts,  then  only  on  successful 
+checkout, will items be deducted from the inventory's records e. User should be able to see his ordering history in the application f. User should be able to see if order is delivered or not  
+
+5.  SECURITY: a. Implement necessary security measures to protect user data and prevent common security 
+vulnerabilities 
+ 
+6.  IMPORTANT CONSIDERATIONS: a. Create the required tables, with proper thought to the above points and pricing, inventory, order 
+history in particular. b. Create services to handle the Requirements - Ensure business logic is handled as much as possible 
+in the backend. Hence, we need APIs to handle all business requirements c. Create GUI to handle the Requirements. Try to make it as user friendly as possible. d. Attention to detail is important
