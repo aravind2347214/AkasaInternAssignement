@@ -7,6 +7,7 @@ import ErrorBox from '../components/ErrorBox';
 import { Visibility, VisibilityOff } from '@mui/icons-material'
 import Logo from '../components/Logo';
 import { FruitLogo } from '../assets/Icons';
+import Loader from '../components/Loader';
 function Login() {
   const dispatch = useDispatch()
 
@@ -202,7 +203,7 @@ function Login() {
           </div>
         ) : loginStatus === "login-loading" ? (
           <div className="flex justify-center mt-[100px] text-[16px] font-light ">
-            loading
+            <Loader/>
           </div>
          
         ) : null

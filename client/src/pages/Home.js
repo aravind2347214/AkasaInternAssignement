@@ -232,7 +232,6 @@ function Home() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
     :
      pageLoading === "not-loaded" ? (
