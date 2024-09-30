@@ -38,6 +38,7 @@ exports.checkout = async (req, res) => {
                 }
             });
         }
+        
 
         const trackingId = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
         total = total.toFixed(2)
